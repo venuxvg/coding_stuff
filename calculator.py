@@ -7,7 +7,7 @@ def calcu(choice,inp1,inp2):
                 '4': f'Division of {inp1} and {inp2}:{inp1/inp2}'
         }
         if(choice in switcher):
-                print(inp1,choice,inp2,"=",switcher[choice])
+                print(switcher[choice])
         else:
                 print("Please read the title and enter values correctly")       
 
